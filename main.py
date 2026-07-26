@@ -144,19 +144,26 @@ name = "Michael"
 # print(max(nums))
 # print(sum(nums))
 
-courses = ["History", "Math", "Physics", "Chemistry"]
+# courses = ["History", "Math", "Physics", "Chemistry"]
 
 # for course in courses:
 #     print(course)
 
-for index, course in enumerate(courses):
-    print(index, course)
+# for index, course in enumerate(courses, start=1):
+#     print(index, course)
 
 
 # print(courses.index("Art"))
 # print("Math" in courses)
 
+courses = ["History", "Math", "Physics", "Chemistry"]
 
+course_str = " - ".join(courses)
+
+new_list = course_str.split(" - ")
+
+print(course_str)
+print(new_list)
 
 
 
