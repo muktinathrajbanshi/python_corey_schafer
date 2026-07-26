@@ -95,14 +95,66 @@ name = "Michael"
 #
 # print(num_1 <= num_2)
 
-num_1 = "100"
-num_2 = "200"
+# num_1 = "100"
+# num_2 = "200"
+#
+# num_1 = int(num_1)
+# num_2 = int(num_2)
+#
+# print((num_1 + num_2))
 
-num_1 = int(num_1)
-num_2 = int(num_2)
+# Lists, Tuples, and Sets
+# courses = ["History", "Math", "Physics", "Chemistry"]
 
-print((num_1 + num_2))
+# print(courses)
+# print(len(courses))
+# print(courses[-1])
+# print(courses[0:2])
+# print(courses[2:])
 
+# courses = ["History", "Math", "Physics", "Chemistry"]
+# courses_2 = ["Art", "Education"]
+
+
+
+# courses.append("Computer Science")
+# courses.insert(0,"Computer Science")
+# courses.insert(0, courses_2)
+# courses.extend(courses_2)
+# courses.append(courses_2)
+
+# courses.remove("Math")
+# courses.pop()
+# popped = courses.pop()
+# print(popped)
+
+# courses = ["History", "Math", "Physics", "Chemistry"]
+# nums = [1, 5, 2, 4, 3]
+# courses.reverse()
+# courses.sort()
+# nums.sort()
+#
+# courses.sort(reverse=True)
+# nums.sort(reverse=True)
+
+# sorted_courses = sorted(courses)
+
+# print(sorted_courses)
+# print(min(nums))
+# print(max(nums))
+# print(sum(nums))
+
+courses = ["History", "Math", "Physics", "Chemistry"]
+
+# for course in courses:
+#     print(course)
+
+for index, course in enumerate(courses):
+    print(index, course)
+
+
+# print(courses.index("Art"))
+# print("Math" in courses)
 
 
 
