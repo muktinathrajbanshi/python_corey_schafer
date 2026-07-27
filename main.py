@@ -156,14 +156,51 @@ name = "Michael"
 # print(courses.index("Art"))
 # print("Math" in courses)
 
-courses = ["History", "Math", "Physics", "Chemistry"]
+# courses = ["History", "Math", "Physics", "Chemistry"]
+#
+# course_str = " - ".join(courses)
+#
+# new_list = course_str.split(" - ")
+#
+# print(course_str)
+# print(new_list)
 
-course_str = " - ".join(courses)
+# Mutable
+# list_1 = ["History", "Math", "Physics", "Chemistry"]
+# list_2 = list_1
+#
+# print(list_1)
+# print(list_2)
+#
+# list_1[0] = "Art"
+#
+# print(list_1)
+# print(list_2)
 
-new_list = course_str.split(" - ")
+# Tuples
+# Immutable
+tuple_1 = ["History", "Math", "Physics", "CompSci"]
+tuple_2 = tuple_1
 
-print(course_str)
-print(new_list)
+print(tuple_1)
+print(tuple_2)
+
+tuple_1[0] = "Art"
+
+print(tuple_1)
+print(tuple_2)
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
