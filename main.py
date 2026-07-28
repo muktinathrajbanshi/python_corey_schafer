@@ -199,25 +199,38 @@ name = "Michael"
 # print(cs_courses.union(art_courses))
 
 # Empty Lists
-empty_list = []
-empty_list = list()
+# empty_list = []
+# empty_list = list()
 
 # Empty Tuples
-empty_tuple = ()
-empty_tuple = tuple()
+# empty_tuple = ()
+# empty_tuple = tuple()
 
 # Empty Sets
-empty_set = {} # This isn't right! It's a dict
-empty_set = set()
+# empty_set = {} # This isn't right! It's a dict
+# empty_set = set()
 
+# Dictionaries
+student = {"name" : "Michael", "age" : 25, "courses": ["Math", "CompSci"]}
 
+# age = student.pop("age")
+# del student["age"]
+# student.update({"name": "Jane", "age" : 26, "phone": "555-5555"})
+# student["phone"] = "555-5555"
+# student["name"] = "Jane"
 
+# print(student.get("phone", "Not Found"))
+# print(student)
+# print(age)
 
+# print(len(student))
+# print(student.keys())
+# print(student.values())
+# print(student.items())
 
-
-
-
-
+# for key in student:
+for key, value in student.items():
+    print(key, value)
 
 
 
