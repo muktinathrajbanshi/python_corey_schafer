@@ -211,7 +211,7 @@ name = "Michael"
 # empty_set = set()
 
 # Dictionaries
-student = {"name" : "Michael", "age" : 25, "courses": ["Math", "CompSci"]}
+# student = {"name" : "Michael", "age" : 25, "courses": ["Math", "CompSci"]}
 
 # age = student.pop("age")
 # del student["age"]
@@ -229,11 +229,25 @@ student = {"name" : "Michael", "age" : 25, "courses": ["Math", "CompSci"]}
 # print(student.items())
 
 # for key in student:
-for key, value in student.items():
-    print(key, value)
+# for key, value in student.items():
+    # print(key, value)
 
+# Conditionals and Booleans - If, Else, and Elif Statements
+# Comparisons:
+# Equal: ==
+# Not Equal: !=
+# Greater Than: >
+# Less Than: <
+# Greater or Equal: >=
+# Less or Equal: <=
+# Object Identity: is
+# if True:
+#     print("Conditional was True")
 
+language = "Python"
 
+if language == "Python":
+    print("Conditional was True")
 
 
 
