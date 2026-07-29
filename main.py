@@ -244,10 +244,16 @@ name = "Michael"
 # if True:
 #     print("Conditional was True")
 
-language = "Python"
+language = "Java"
 
 if language == "Python":
-    print("Conditional was True")
+    print("Language is Python")
+elif language == "Java":
+    print("Language is Java")
+elif language == "JavaScript":
+    print("Language is JavaScript")
+else:
+    print("No match")
 
 
 
