@@ -255,7 +255,30 @@ name = "Michael"
 #     print("Please log in")
 # else:
 #     print("Welcome")
+#
+# a = [1, 2, 3]
+# b = a
+# b = [1, 2, 3]
+#
+# print(id(a))
+# print(id(b))
+# print(a is b)
+# print(a == b)
+# print(id(a) == id(b))
 
+# False Values:
+#     False
+#     None
+#     Zero of any numeric type
+#     Any empty sequence. For example, "", (), [].
+#     Any empty mapping. For example, {}.
+
+condition = False
+
+if condition:
+    print("Evaluated to True")
+else:
+    print("Evaluated to False")
 
 
 
