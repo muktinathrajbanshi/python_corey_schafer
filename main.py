@@ -241,19 +241,39 @@ name = "Michael"
 # Greater or Equal: >=
 # Less or Equal: <=
 # Object Identity: is
+
+# and
+# or
+# not
+
+# user = "Admin"
+# logged_in = False
+
+# if user == "Admin" or logged_in:
+#     print("Admin Page")
+# if not logged_in:
+#     print("Please log in")
+# else:
+#     print("Welcome")
+
+
+
+
+
+
 # if True:
 #     print("Conditional was True")
 
-language = "Java"
-
-if language == "Python":
-    print("Language is Python")
-elif language == "Java":
-    print("Language is Java")
-elif language == "JavaScript":
-    print("Language is JavaScript")
-else:
-    print("No match")
+# language = "Java"
+#
+# if language == "Python":
+#     print("Language is Python")
+# elif language == "Java":
+#     print("Language is Java")
+# elif language == "JavaScript":
+#     print("Language is JavaScript")
+# else:
+#     print("No match")
 
 
 
