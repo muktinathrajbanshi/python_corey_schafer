@@ -273,7 +273,10 @@ name = "Michael"
 #     Any empty sequence. For example, "", (), [].
 #     Any empty mapping. For example, {}.
 
-condition = False
+# condition = False
+# condition = None
+
+condition = "Test"
 
 if condition:
     print("Evaluated to True")
