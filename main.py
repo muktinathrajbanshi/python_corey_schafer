@@ -349,15 +349,39 @@ name = "Michael"
 #     x += 1
 
 
-x = 0
-while True:
+# x = 0
+# while True:
     # if x == 5:
     #     break
-    print(x)
-    x += 1
+    # print(x)
+    # x += 1
 
+# Functions
+# def hello_func():
+    # pass
+    # print("Hello Function!")
 
+# hello_func()
+# print("Hello Function.")
+# print("Hello Function.")
+# print("Hello Function.")
+# print("Hello Function.")
 
+# def hello_func():
+#     print("Hello Function.")
+#
+# hello_func()
+# hello_func()
+# hello_func()
+# hello_func()
+#DRY
+
+def hello_func(greeting):
+    return "{} Function.".format(greeting)
+
+print(hello_func("Hi"))
+# print(hello_func().upper())
+# print(len("Test"))
 
 
 
