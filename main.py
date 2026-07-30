@@ -376,16 +376,45 @@ name = "Michael"
 # hello_func()
 #DRY
 
-def hello_func(greeting):
-    return "{} Function.".format(greeting)
-
-print(hello_func("Hi"))
+# def hello_func(greeting):
+#     return "{} Function.".format(greeting)
+#
+# print(hello_func("Hi"))
 # print(hello_func().upper())
 # print(len("Test"))
 
+# def hello_func(greeting, name="you"):
+#     return "{}, {}".format(greeting, name)
+#
+# print(hello_func("Hi"))
+
+# def hello_func(greeting, name="you"):
+    # return "{}, {}".format(greeting, name)
+
+# print(hello_func("Hi", name="Muktinath  "))
+
+# def student_info(*args, **kwargs):
+#     print(args)
+#     print(kwargs)
+#
+# student_info("Math", "Art", name="Muktinath", age=25)
+
+# def student_info(*args, **kwargs):
+#     print(args)
+#     print(kwargs)
+#
+# courses = ["Math", "Art"]
+# info = {"name": "Muktinath", "age": 25}
+#
+# student_info(courses, info)
 
 
+def student_info(*args, **kwargs):
+    print(args)
+    print(kwargs)
 
+courses = ["Math", "Art"]
+info = {"name": "Muktinath", "age": 25}
 
-
+student_info(*courses, **info)
 
