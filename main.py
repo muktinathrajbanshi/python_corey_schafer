@@ -276,12 +276,12 @@ name = "Michael"
 # condition = False
 # condition = None
 
-condition = "Test"
-
-if condition:
-    print("Evaluated to True")
-else:
-    print("Evaluated to False")
+# condition = "Test"
+#
+# if condition:
+#     print("Evaluated to True")
+# else:
+#     print("Evaluated to False")
 
 
 
@@ -300,6 +300,39 @@ else:
 #     print("Language is JavaScript")
 # else:
 #     print("No match")
+
+# Loops and Iterations - For/While Loops
+# nums = [1, 2, 3, 4, 5]
+#
+# for num in nums:
+#     print(num)
+
+#
+# nums = [1, 2, 3, 4, 5]
+#
+# for num in nums:
+#     if num == 3:
+#         print("Found")
+#         break
+#     print(num)
+
+
+nums = [1, 2, 3, 4, 5]
+
+for num in nums:
+    if num == 3:
+        print("Found")
+        continue
+    print(num)
+
+
+
+
+
+
+
+
+
 
 
 
