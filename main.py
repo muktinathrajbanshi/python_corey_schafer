@@ -441,3 +441,26 @@ name = "Michael"
 #
 # # print(is_leap(2020))
 # print(days_in_month(2017, 2))
+
+ # OS Module
+# import os
+#
+# # print(dir(os))
+# print(os.getcwd())
+#
+# os.chdir("C:/Users/ACER/Desktop")
+#
+# print(os.getcwd())
+
+import os
+
+# os.chdir("C:/Users/ACER/Desktop")
+
+# os.mkdir("Kurakani/Sub-Dir-1")
+# os.makedirs("Kurakani/Sub-Dir-1")
+
+os.removedirs("Kurakani/Sub-Dir-1")
+
+# print(os.getcwd())
+print(os.listdir())
+
