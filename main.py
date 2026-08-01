@@ -452,15 +452,30 @@ name = "Michael"
 #
 # print(os.getcwd())
 
-import os
+# import os
+# from datetime import datetime
 
 # os.chdir("C:/Users/ACER/Desktop")
 
 # os.mkdir("Kurakani/Sub-Dir-1")
 # os.makedirs("Kurakani/Sub-Dir-1")
 
-os.removedirs("Kurakani/Sub-Dir-1")
+# os.removedirs("Chat/Sub-Dir-1")
 
+# os.rename("Kurakani", "Chat")
 # print(os.getcwd())
-print(os.listdir())
 
+# mod_time = os.stat("intro.py").st_mtime
+# print(datetime.fromtimestamp(mod_time))
+
+# print(os.listdir())
+
+
+import os
+from datetime import datetime
+
+os.chdir("C:/Users/ACER/Desktop")
+for dirpath, dirnames, filenames in os.walk("C:/Users/ACER/Desktop"):
+    print("Current Path:", dirpath)
+    print("Directories:", dirnames)
+    print("Files:", filenames)
