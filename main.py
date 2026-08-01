@@ -471,11 +471,36 @@ name = "Michael"
 # print(os.listdir())
 
 
+# import os
+# from datetime import datetime
+#
+# os.chdir("C:/Users/ACER/Desktop")
+# for dirpath, dirnames, filenames in os.walk("C:/Users/ACER/Desktop"):
+#     print("Current Path:", dirpath)
+#     print("Directories:", dirnames)
+#     print("Files:", filenames)
+
 import os
 from datetime import datetime
 
 os.chdir("C:/Users/ACER/Desktop")
-for dirpath, dirnames, filenames in os.walk("C:/Users/ACER/Desktop"):
-    print("Current Path:", dirpath)
-    print("Directories:", dirnames)
-    print("Files:", filenames)
+
+# print(os.environ.get("USERPROFILE"))
+# print(os.environ.get("USERNAME"))
+
+# file_path = os.path.join(os.environ.get("TEMP"), "test.txt")
+# print(file_path)
+
+# print(os.path.basename("/tmp/test.txt"))
+# print(os.path.dirname("/tmp/test.txt"))
+
+# print(os.path.exists("/tmp/fsfsffsd"))
+# print(os.path.isdir("/tmp/fsfsffsd"))
+# print(os.path.isfile("/tmp/fsfsffsd"))
+# print(os.path.splitext("/tmp/test.txt"))
+
+print(dir(os.path))
+
+
+
+# print(os.environ)
