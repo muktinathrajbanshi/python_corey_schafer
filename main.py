@@ -480,10 +480,10 @@ name = "Michael"
 #     print("Directories:", dirnames)
 #     print("Files:", filenames)
 
-import os
-from datetime import datetime
+# import os
+# from datetime import datetime
 
-os.chdir("C:/Users/ACER/Desktop")
+# os.chdir("C:/Users/ACER/Desktop")
 
 # print(os.environ.get("USERPROFILE"))
 # print(os.environ.get("USERNAME"))
@@ -499,8 +499,35 @@ os.chdir("C:/Users/ACER/Desktop")
 # print(os.path.isfile("/tmp/fsfsffsd"))
 # print(os.path.splitext("/tmp/test.txt"))
 
-print(dir(os.path))
-
-
+# print(dir(os.path))
 
 # print(os.environ)
+
+# File Objects
+
+# f = open("test.txt", "r")
+# print(f.name)
+# print(f.mode)
+# f.close()
+
+# with open("test.txt", "r") as f:
+#     pass
+# print(f.read())
+# print(f.closed)
+
+# with open("test.txt", "r") as f:
+#     f_contents = f.read()
+#     print(f_contents)
+
+with open("test.txt", "r") as f:
+    f_contents = f.readline()
+    print(f_contents, end="")
+
+with open("test.txt", "r") as f:
+    f_contents = f.readline()
+    print(f_contents, end="")
+
+# with open("test.txt", "r") as f:
+#     f_contents = f.readlines()
+#     print(f_contents)
+
