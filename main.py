@@ -591,13 +591,53 @@ name = "Michael"
 #         for line in rf:
 #             wf.write(line)
 
-with open("image.JPG", "rb") as rf:
-    with open("image_copy.JPG", "wb") as wf:
-        chunk_size = 4096
-        rf.chunk = rf.read(chunk_size)
-        while len(rf.chunk) > 0:
-            wf.write(rf.chunk)
-            rf.chunk = rf.read(chunk_size)
+# with open("image.JPG", "rb") as rf:
+#     with open("image_copy.JPG", "wb") as wf:
+#         chunk_size = 4096
+#         rf.chunk = rf.read(chunk_size)
+#         while len(rf.chunk) > 0:
+#             wf.write(rf.chunk)
+#             rf.chunk = rf.read(chunk_size)
 
+# import os
+#
+# os.chdir("E:/my_songs")
+#
+# for f in os.listdir():
+#     file_name, file_ext = os.path.splitext(f)
+    # print(file_name.split("_"))
+    # f_title, f_stitle, f_sstitle = file_name.split("_")
+    # print(f_title)
+    # print(os.path.splitext(f))
+    # print(f)
+
+# import os
+#
+# os.chdir("E:/my_songs")
+#
+# for f in os.listdir():
+#     file_name, file_ext = os.path.splitext(f)
+#
+#     f_title, f_stitle, f_sstitle = file_name.split("_")
+#     print(f_sstitle)
+
+import os
+
+os.chdir("E:/my_songs")
+
+for f in os.listdir():
+    f_name, f_ext = os.path.splitext(f)
+
+    f_title, f_stitle, f_sstitle = f_name.split("_")
+
+    f_title = f_title.strip()
+    f_stitle = f_stitle.strip()
+    f_sstitle = f_sstitle.strip()
+
+    # print("{}-{}{}".format(f_sstitle, f_title, f_ext))
+
+    new_name = "{}-{}{}".format(f_sstitle, f_title, f_ext)
+
+    os.rename(f, new_name)
 
 
