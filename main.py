@@ -561,11 +561,43 @@ name = "Michael"
 #         f_contents = f.read(size_to_read)
 
 
-with open("test.txt", "r") as f:
+# with open("test.txt", "r") as f:
+#
+#     size_to_read = 10
+#
+#     f_contents = f.read(size_to_read)
+#     print(f_contents, end="")
+#
+#     f.seek(0)
+#
+#     f_contents = f.read(size_to_read)
+#     print(f_contents)
+#
+#     print(f.tell())
+#
+# with open("test2.txt", "w") as f:
+#     # pass
+#     f.write("Hello Muktinath!")
+#     f.seek(0)
+#     f.write("M")
 
-    size_to_read = 10
+# with open("test.txt", "r") as rf:
+#     with open("test_copy.txt", "w") as wf:
+#         for line in rf:
+#             wf.write(line)
 
-    f_contents = f.read(size_to_read)
+# with open("image.JPG", "rb") as rf:
+#     with open("image_copy.JPG", "wb") as wf:
+#         for line in rf:
+#             wf.write(line)
 
-    print(f.tell())
+with open("image.JPG", "rb") as rf:
+    with open("image_copy.JPG", "wb") as wf:
+        chunk_size = 4096
+        rf.chunk = rf.read(chunk_size)
+        while len(rf.chunk) > 0:
+            wf.write(rf.chunk)
+            rf.chunk = rf.read(chunk_size)
+
+
 
