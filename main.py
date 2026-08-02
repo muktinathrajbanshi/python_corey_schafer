@@ -519,15 +519,53 @@ name = "Michael"
 #     f_contents = f.read()
 #     print(f_contents)
 
-with open("test.txt", "r") as f:
-    f_contents = f.readline()
-    print(f_contents, end="")
+# with open("test.txt", "r") as f:
 
-with open("test.txt", "r") as f:
-    f_contents = f.readline()
-    print(f_contents, end="")
+    # for line in f:
+    #     print(line, end="")
+
+    # f_contents = f.readline()
+    # print(f_contents, end="")
+    #
+    # f_contents = f.readline()
+    # print(f_contents, end="")
 
 # with open("test.txt", "r") as f:
 #     f_contents = f.readlines()
 #     print(f_contents)
+
+# with open("test.txt", "r") as f:
+#
+#     f_contents = f.read()
+#     print(f_contents, end="")
+
+# with open("test.txt", "r") as f:
+#
+#     f_contents = f.read(100)
+#     print(f_contents, end="")
+#
+#     f_contents = f.read(100)
+#     print(f_contents, end="")
+#
+#     f_contents = f.read(100)
+#     print(f_contents, end="")
+
+# with open("test.txt", "r") as f:
+#
+#     size_to_read = 10
+#
+#     f_contents = f.read(size_to_read)
+#
+#     while len(f_contents) > 0:
+#         print(f_contents, end="*")
+#         f_contents = f.read(size_to_read)
+
+
+with open("test.txt", "r") as f:
+
+    size_to_read = 10
+
+    f_contents = f.read(size_to_read)
+
+    print(f.tell())
 
